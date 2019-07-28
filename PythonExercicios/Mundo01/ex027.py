@@ -1,0 +1,5 @@
+n = str(input('Insira o seu nome completo: ')).strip()
+quebra = n.split()
+print('Muito prazer em te conhecer!')
+print(f'Seu primeiro nome é {quebra[0]}.')
+print(f'Seu último nome é {quebra[len(quebra) - 1]}.')
